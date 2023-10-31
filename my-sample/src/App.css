@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.App{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: rgb(117, 117, 117);
+
+
+}
+/* put my header all on top  */
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+button {
+  border: none;
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  background-color: #488aec;
+  color: #ffffff;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 0.5rem;
+  user-select: none;
+  gap: 0.75rem;
+  box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+  transition: all .6s ease;
+  margin : 60px;
+  /* padding: 70px; */
+}
+
+button:hover {
+  box-shadow: 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17;
+}
+
+button:focus,button:active {
+  opacity: .85;
+  box-shadow: none;
+}
+
+button svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.all{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.all input{
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #4a5568;
+  background-color: #ffffff;
+  transition: all .6s ease;
+/* give the input the same font family as the app */
+  font-family: inherit;
+}
