@@ -31,6 +31,7 @@ export default function ListeTodo() {
       </header>
       <div className="all">
         <input
+        placeholder="Add a task to do"
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
