@@ -29,6 +29,7 @@ header{
 
 button {
   border: none;
+  cursor: pointer;
   display: flex;
   padding: 0.75rem 1.5rem;
   background-color: #488aec;
@@ -45,7 +46,7 @@ button {
   gap: 0.75rem;
   box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
   transition: all .6s ease;
-  margin : 60px;
+  /* margin : 60px; */
   /* padding: 70px; */
 }
 
